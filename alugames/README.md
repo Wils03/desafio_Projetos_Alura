@@ -10,8 +10,7 @@ A ideia basicamente desse projeto é simples. Criar uma funcionalidade para uma 
 
 ## Aprendizados
 
-Durante a codificação desse desafio foi capaz de entender na pratica muitos elementos como getElementById(), querySelector(), classList, mas o mais importante é a lógica de cada um.
-
+Durante a codificação desse desafio fui capaz de entender na pratica, muitos elementos como getElementById(), querySelector(), classList, mas o mais importante é a lógica de cada um.
 Como obter um elemento, como obter uma classe, como recuperar um dado, é fácil pesquisar no Google e descobrir como fazer. Porém, a lógica sobre o que precisa ser feito para que o recurso funcione da forma que precisamos, foi a de maior aprendizagem nesse desafio.
 
 
