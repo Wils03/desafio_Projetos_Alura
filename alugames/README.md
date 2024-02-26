@@ -17,3 +17,5 @@ Como obter um elemento, como obter uma classe, como recuperar um dado, é fácil
 ## Autor
 
 - [@Wils03](https://github.com/Wils03)
+
+OBS.: Os assets e o arquivo do index.html sá foram disponibilizados pela plataforma ALURA.
