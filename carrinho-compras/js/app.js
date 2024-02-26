@@ -1,7 +1,9 @@
-let produtoCarrinho = ['Celular']; //por padrão o HTML já tem um item inserido no carriho
-let valorProdutoCarrinho = [1400]; // valor do item já inserido no carrinho
-let quantProd = [1]; // quantidade de itens já inserido no carrinho
-let totalCarrinho = 1400;
+let produtoCarrinho = [];
+let valorProdutoCarrinho = [];
+let quantProd = [];
+let totalCarrinho = 0;
+exibirTextoNaTela('lista-produtos','');
+exibirTextoNaTela('valor-total','R$'+totalCarrinho);
 
 function adicionar(){
     let tam;
@@ -62,8 +64,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 function addElemento(element,local,mensagem) {
     console.log(`Foi adicionado o elemento ${element}, no campo (ID): ${local}\nCom a seguinte informação:\n ${mensagem}`);
-    let newDiv = document.createElement(element), //Cria um element DIV
-    container = document.getElementById(local); //Grava a sua div que receberá novos dados em uma variável
-    newDiv.innerHTML = mensagem; //Insere um conteúdo dentro da nova div
-    container.append(newDiv); //Adiciona ao final da sua div o novo conteúdo
+    let newElem = document.createElement(element), //Cria um elemento
+    container = document.getElementById(local); //Grava o seu elemento que receberá novos dados em uma variável
+    newElem.innerHTML = mensagem; //Insere um conteúdo dentro do novo elemento
+    container.append(newElem); //Adiciona ao final do seu elemento o novo conteúdo
 }
