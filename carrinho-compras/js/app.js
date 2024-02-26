@@ -10,7 +10,6 @@ function adicionar(){
         //busca a quantidade do produto
     quantProd.push(parseInt(document.getElementById('quantidade').value));
     tam = quantProd.length;
-    console.log('tam:',tam,'arrau quant:',quantProd)
     if (isNaN(quantProd[tam - 1]) || quantProd[tam-1] <=0){ //verificando se a quantidade é valida
         console.log('Quantidade invalida', quantProd[tam-1]);
         quantProd.pop();
@@ -32,7 +31,7 @@ function adicionar(){
         //chama somatorio e mostra na tela
     somaCarrinhoDeCompras(quantProd, valorProdutoCarrinho);
     exibirTextoNaTela('valor-total','R$'+totalCarrinho);
-   
+    document.getElementById('quantidade').value = '';
 }
 
 function limpar(){
