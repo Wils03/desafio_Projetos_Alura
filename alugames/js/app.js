@@ -1,6 +1,6 @@
 let alugados = 1; //por padrão o HTML  já mostra um game devolvido.
 function exibirJogosAlugados(){
-    console.log(`Posui atualmente ${alugados} jogos alugados.`);
+    console.log(`Possui atualmente ${alugados} jogos alugados.`);
 }
 function alterarStatus(cod){
     let gameId ='game-'+cod;
