@@ -37,7 +37,7 @@ function adicionar(){
         alert('Insira o nome do seu amigo.');
         return
     }
-    if(listaAmigos.includes(amigo.value)){ //verifica duplicidade
+    if(listaAmigos.includes(amigo.value.toLowerCase())){ //verifica duplicidade
         alert('Nome do seu amigo já incluso. Diferencie.');
         amigo.value = '';
     }else{
