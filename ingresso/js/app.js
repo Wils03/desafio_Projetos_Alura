@@ -20,6 +20,7 @@ function ingressosDisponiveis(tipo, quant){
         case ('pista'):
             if ((quant <= ingPista) && (quant > 0)){
                 ingPista = ingPista - quant;
+                alert('Parabéns. Compra realizada com sucesso.');
                 exibirTextoNaTela('qtd-pista',ingPista);
             }else{
                 alert('Quantidade desejada indiponivel.');
@@ -29,6 +30,7 @@ function ingressosDisponiveis(tipo, quant){
         case ('superior'):
             if ((quant <= ingCadeiraSup)&& (quant > 0)){
                 ingCadeiraSup = ingCadeiraSup - quant;
+                alert('Parabéns. Compra realizada com sucesso.');
                 exibirTextoNaTela('qtd-superior',ingCadeiraSup);
             }else{
                 alert('Quantidade desejada indiponivel.');
@@ -38,6 +40,7 @@ function ingressosDisponiveis(tipo, quant){
         case ('inferior'):
             if ((quant <= ingCadeiraInf)&& (quant > 0)){
                 ingCadeiraInf = ingCadeiraInf - quant;
+                alert('Parabéns. Compra realizada com sucesso.');
                 exibirTextoNaTela('qtd-inferior',ingCadeiraInf);
             }else{
                 alert('Quantidade desejada indiponivel.');
